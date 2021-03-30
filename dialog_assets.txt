@@ -1,0 +1,45 @@
+                               showDialog(
+                                  context: context,
+                                  child: new AlertDialog(
+                                      title: new Text('${globals.name}'),
+                                      content:
+                                      //new Text("Items count : " + globals.count.toString()),
+                                      new Row(
+                                          mainAxisAlignment: MainAxisAlignment
+                                              .spaceEvenly,
+                                          children: [
+                                            Text(
+                                              '${globals.count}',
+                                              style: Theme.of(context).textTheme.display1,
+                                            ),
+                                  Expanded(
+                                    child: new RaisedButton(
+                                        shape: CircleBorder(),
+                                        child: Icon(
+                                          Icons.add,
+                                          size: 20.0,
+                                          color: Colors.white,
+                                        ),
+                                        color: Colors.blue,
+                                        onPressed: () {
+                                          _incrementCounter();
+                                        },
+                                      ),
+                                  ),
+                                  Expanded(
+                                    child: new RaisedButton(
+                                      shape: CircleBorder(),
+                                child: Icon(
+                                Icons.remove,
+                                size: 20.0,
+                                color: Colors.white,
+                                ),
+                                color: Colors.blue,
+                                onPressed: () {
+                                  _decrementCounter();
+                                },
+                                ),
+                                  ),
+                                  ],
+                                ),
+                                ));

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "28146808797",
+    "project_id": "architect-1d58e",
+    "storage_bucket": "architect-1d58e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:28146808797:android:fe4f0b6358517a47606834",
+        "android_client_info": {
+          "package_name": "com.gitikansh.architect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "28146808797-r6b3fm72gu4q2jkjopug6h8odv7hkbv2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYOHd1RsWzXzddqa0NpmGXOstzTwUuIpk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "28146808797-r6b3fm72gu4q2jkjopug6h8odv7hkbv2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
